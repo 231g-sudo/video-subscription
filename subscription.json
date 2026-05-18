@@ -73,19 +73,25 @@
       "name": "📡 央视/卫视",
       "type": 0,
       "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-      "playerType": 1
+      "playerType": 1,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
     },
     {
       "name": "🌍 全球频道",
       "type": 0,
       "url": "https://iptv-org.github.io/iptv/index.m3u",
-      "playerType": 2
+      "playerType": 2,
+      "epg": "https://iptv-org.github.io/epg/epg.xml",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
     },
     {
       "name": "🔄 自动更新源",
       "type": 0,
       "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
-      "playerType": 1
+      "playerType": 1,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
     }
   ],
   "doh": [
