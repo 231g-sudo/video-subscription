@@ -1,82 +1,69 @@
 {
   "author": "231g-sudo",
-  "version": "1.0.0",
-  "description": "电影/电视剧/动漫/综艺 专项订阅",
+  "version": "1.0.1",
+  "description": "电影/电视剧/动漫/综艺 专项订阅（不与主仓库重复）",
   "sites": [
     {
-      "key": "电影天堂",
-      "name": "🎬 电影天堂 | 电影",
+      "key": "非凡资源",
+      "name": "🔥 非凡资源 | 综合",
       "type": 1,
-      "api": "https://www.dydytt.net/api.php/provide/vod/",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片"]
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "日本剧"]
     },
     {
-      "key": "追剧达人",
-      "name": "📺 追剧达人 | 电视剧",
+      "key": "最大资源",
+      "name": "📀 最大资源 | 综合",
       "type": 1,
-      "api": "https://api.zhuiju18.com/api.php/provide/vod/",
+      "api": "https://www.zuidazy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "categories": ["国产剧", "香港剧", "韩国剧", "欧美剧", "日本剧", "台湾剧"]
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧"]
     },
     {
-      "key": "动漫世界",
-      "name": "🎨 动漫世界 | 动漫",
+      "key": "量子资源",
+      "name": "⚛️ 量子资源 | 综合",
       "type": 1,
-      "api": "https://www.dm233.me/api.php/provide/vod/",
+      "api": "https://www.lzzy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "categories": ["热血", "奇幻", "恋爱", "搞笑", "科幻", "冒险", "机战"]
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧"]
     },
     {
-      "key": "综艺大全",
-      "name": "🎤 综艺大全 | 综艺",
+      "key": "红牛资源",
+      "name": "🐂 红牛资源 | 综合",
       "type": 1,
-      "api": "https://zy.xiangjiaob.com/api.php/provide/vod/",
+      "api": "https://www.hongniuzy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "categories": ["真人秀", "脱口秀", "选秀", "访谈", "搞笑", "音乐", "舞蹈"]
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧"]
     },
     {
-      "key": "纪录片",
-      "name": "🌍 纪录片 | 探索",
+      "key": "飞速资源",
+      "name": "⚡ 飞速资源 | 综合",
       "type": 1,
-      "api": "https://www.jlpzj.com/api.php/provide/vod/",
+      "api": "https://www.feisuzy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "categories": ["自然", "历史", "科技", "人文", "军事", "美食"]
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "动漫"]
     }
   ],
-  "lives": [
-    {
-      "name": "📡 央视高清",
-      "type": 0,
-      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
-      "playerType": 1
-    }
-  ],
-  "parses": [
-    {
-      "name": "免费解析",
-      "type": 0,
-      "url": "https://jx.xmflv.com/?url="
-    }
-  ]
+  "lives": [],
+  "parses": []
 }
