@@ -6,9 +6,9 @@
 
 ### 主仓（推荐，含 spider 引擎）
 
-稳定版（推荐）:
+稳定版（链接永不改变）:
 ```
-https://cdn.jsdelivr.net/gh/231g-sudo/video-subscription@v1.1.1/subscription.json
+https://cdn.jsdelivr.net/gh/231g-sudo/video-subscription@main/subscription.json
 ```
 
 最新版（可能不稳定）:
