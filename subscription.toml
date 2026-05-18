@@ -9,7 +9,7 @@ description = "影视仓/OK影视 全类别订阅配置"
 update_time = "2026-05-18"
 
 [spider]
-url = "https://gh-proxy.com/https://raw.githubusercontent.com/231g-sudo/video-subscription/main/jar/spider.jar"
+url = "https://raw.githubusercontent.com/231g-sudo/video-subscription/main/jar/spider.jar"
 md5 = "86d807962a8a4ce4641cb665ead8948a"
 
 [wallpaper]
