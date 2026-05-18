@@ -1,19 +1,31 @@
 {
   "author": "231g-sudo",
-  "version": "1.0.1",
-  "description": "影视仓多仓聚合",
+  "version": "1.0.0",
+  "description": "影视仓多仓聚合 - 内部源 + 外部备用源",
   "urls": [
     {
       "name": "🎬 主仓 (综合全类)",
-      "url": "https://raw.githubusercontent.com/231g-sudo/video-subscription/main/subscription.json"
+      "url": "https://cdn.jsdelivr.net/gh/231g-sudo/video-subscription@v1.0.0/subscription.json"
     },
     {
       "name": "📡 电视直播仓",
-      "url": "https://raw.githubusercontent.com/231g-sudo/video-subscription/main/sites/live.json"
+      "url": "https://cdn.jsdelivr.net/gh/231g-sudo/video-subscription@v1.0.0/sites/live.json"
     },
     {
       "name": "🎮 斗鱼直播仓",
-      "url": "https://raw.githubusercontent.com/231g-sudo/video-subscription/main/sites/douyu.json"
+      "url": "https://cdn.jsdelivr.net/gh/231g-sudo/video-subscription@v1.0.0/sites/douyu.json"
+    },
+    {
+      "name": "🍃 饭太硬 (备用)",
+      "url": "http://www.饭太硬.com/tv"
+    },
+    {
+      "name": "🐱 肥猫 (备用)",
+      "url": "http://肥猫.com"
+    },
+    {
+      "name": "🔥 OK吊炸天 (备用)",
+      "url": "http://ok321.top/tv"
     }
   ]
 }
