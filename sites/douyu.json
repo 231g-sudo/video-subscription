@@ -1,0 +1,28 @@
+{
+  "author": "231g-sudo",
+  "version": "1.0.0",
+  "description": "斗鱼直播专项订阅 - 游戏/娱乐/颜值/户外/音乐",
+  "sites": [
+    {
+      "key": "douyu_live",
+      "name": "🎮 斗鱼直播",
+      "type": 3,
+      "api": "csp_Douyu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "playerType": 1,
+      "categories": ["全部", "游戏直播", "娱乐直播", "颜值", "户外", "音乐", "舞蹈", "美食", "学习", "交友"]
+    }
+  ],
+  "lives": [
+    {
+      "name": "🎮 斗鱼直播流",
+      "type": 3,
+      "url": "csp_Douyu",
+      "playerType": 1
+    }
+  ],
+  "parses": []
+}

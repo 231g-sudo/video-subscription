@@ -1,0 +1,48 @@
+{
+  "author": "231g-sudo",
+  "version": "1.0.0",
+  "description": "电视直播专项订阅 - 央视/卫视/地方台/网络频道",
+  "sites": [],
+  "lives": [
+    {
+      "name": "📺 CCTV全频道",
+      "type": 0,
+      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+      "playerType": 1,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    },
+    {
+      "name": "🛰️ 卫视全频道",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+      "playerType": 1,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "🌍 全球IPTV",
+      "type": 0,
+      "url": "https://iptv-org.github.io/iptv/index.m3u",
+      "playerType": 2
+    },
+    {
+      "name": "🇨🇳 中文频道精选",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
+      "playerType": 1
+    },
+    {
+      "name": "🔄 自动更新源",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "playerType": 1
+    },
+    {
+      "name": "🏙️ 地方频道",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/ChiSheng9/IPTV/main/IPTV.m3u",
+      "playerType": 1
+    }
+  ],
+  "parses": []
+}

@@ -1,0 +1,154 @@
+# 影视仓/OK影视 订阅配置文件 (TOML格式)
+# 作者: 231g-sudo
+# 版本: 1.0.0
+
+[info]
+author = "231g-sudo"
+version = "1.0.0"
+description = "影视仓/OK影视 全类别订阅配置"
+update_time = "2026-05-18"
+
+[spider]
+url = "https://gh-proxy.com/https://raw.githubusercontent.com/231g-sudo/video-subscription/main/jar/spider.jar"
+md5 = "86d807962a8a4ce4641cb665ead8948a"
+
+[wallpaper]
+url = "https://t.alcy.cc/acg"
+
+[[sites]]
+key = "饭太硬"
+name = "🎬 饭太硬 | 综合"
+type = 0
+api = "http://www.饭太硬.com/tv"
+searchable = true
+quickSearch = true
+filterable = true
+changeable = true
+playerType = 1
+categories = ["电影", "电视剧", "动漫", "综艺", "纪录片"]
+
+[[sites]]
+key = "肥猫"
+name = "🐱 肥猫 | 综合"
+type = 0
+api = "http://肥猫.com"
+searchable = true
+quickSearch = true
+filterable = true
+changeable = true
+playerType = 1
+categories = ["电影", "电视剧", "动漫", "综艺"]
+
+[[sites]]
+key = "小米"
+name = "📺 小米 | 综合"
+type = 0
+api = "http://xhww.fun/小米/DEMO.json"
+searchable = true
+quickSearch = true
+filterable = true
+changeable = true
+playerType = 1
+categories = ["电影", "电视剧", "动漫", "综艺", "纪录片", "体育"]
+
+[[sites]]
+key = "ok"
+name = "🔥 OK吊炸天 | 综合"
+type = 0
+api = "http://ok321.top/tv"
+searchable = true
+quickSearch = true
+filterable = true
+changeable = true
+playerType = 1
+categories = ["电影", "电视剧", "动漫", "综艺"]
+
+[[sites]]
+key = "高天流云"
+name = "☁️ 高天流云 | 综合"
+type = 0
+api = "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0827.json"
+searchable = true
+quickSearch = true
+filterable = true
+changeable = true
+playerType = 1
+categories = ["电影", "电视剧", "动漫", "综艺", "纪录片", "体育"]
+
+[[sites]]
+key = "潇洒"
+name = "💨 潇洒 | 综合"
+type = 0
+api = "https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json"
+searchable = true
+quickSearch = true
+filterable = true
+changeable = true
+playerType = 1
+categories = ["电影", "电视剧", "动漫", "综艺"]
+
+[[sites]]
+key = "香雅情"
+name = "🌸 香雅情 | 综合"
+type = 0
+api = "https://fastly.jsdelivr.net/gh/xyq254245/xyqonlinerule@main/XYQTVBox.json"
+searchable = true
+quickSearch = true
+filterable = true
+changeable = true
+playerType = 1
+categories = ["电影", "电视剧", "动漫", "综艺", "纪录片"]
+
+[[sites]]
+key = "道长"
+name = "🧙 道长 | 综合"
+type = 0
+api = "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json"
+searchable = true
+quickSearch = true
+filterable = true
+changeable = true
+playerType = 1
+categories = ["电影", "电视剧", "动漫", "综艺"]
+
+[[sites]]
+key = "douyu"
+name = "🎮 斗鱼直播 | 游戏/娱乐"
+type = 3
+api = "csp_Douyu"
+searchable = true
+quickSearch = true
+filterable = false
+changeable = true
+playerType = 1
+categories = ["游戏直播", "娱乐直播", "颜值", "户外", "音乐"]
+
+[[lives]]
+name = "📡 央视/卫视高清"
+type = 0
+url = "https://live.fanmingming.cn/tv/m3u/ipv6.m3u"
+playerType = 1
+
+[[lives]]
+name = "🌍 全球频道"
+type = 0
+url = "https://iptv-org.github.io/iptv/index.m3u"
+playerType = 2
+
+[[lives]]
+name = "🔄 自动更新直播源"
+type = 0
+url = "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u"
+playerType = 1
+
+[[parses]]
+name = "免费解析"
+type = 0
+url = "https://jx.xmflv.com/?url="
+[parses.ext]
+flags = ["qq", "腾讯", "qiyi", "爱奇艺", "youku", "优酷", "mgtv", "芒果"]
+
+[doh]
+name = "Cloudflare"
+url = "https://cloudflare-dns.com/dns-query"
+ips = ["1.1.1.1", "1.0.0.1"]

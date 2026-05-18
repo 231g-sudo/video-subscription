@@ -1,0 +1,374 @@
+{
+  "author": "231g-sudo",
+  "version": "1.0.0",
+  "description": "影视仓/OK影视 全类别订阅配置 - 电视剧/电影/动漫/综艺/电视直播/斗鱼直播",
+  "update_time": "2026-05-18",
+  "spider": "https://gh-proxy.com/https://raw.githubusercontent.com/231g-sudo/video-subscription/main/jar/spider.jar;md5;86d807962a8a4ce4641cb665ead8948a",
+  "wallpaper": "https://t.alcy.cc/acg",
+  "sites": [
+    {
+      "key": "饭太硬",
+      "name": "🎬 饭太硬 | 综合",
+      "type": 0,
+      "api": "http://www.饭太硬.com/tv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺", "纪录片"]
+    },
+    {
+      "key": "肥猫",
+      "name": "🐱 肥猫 | 综合",
+      "type": 0,
+      "api": "http://肥猫.com",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "小米",
+      "name": "📺 小米 | 综合",
+      "type": 0,
+      "api": "http://xhww.fun/小米/DEMO.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺", "纪录片", "体育"]
+    },
+    {
+      "key": "ok",
+      "name": "🔥 OK吊炸天 | 综合",
+      "type": 0,
+      "api": "http://ok321.top/tv",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "高天流云",
+      "name": "☁️ 高天流云 | 综合",
+      "type": 0,
+      "api": "https://fastly.jsdelivr.net/gh/gaotianliuyun/gao@master/0827.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺", "纪录片", "体育"]
+    },
+    {
+      "key": "潇洒",
+      "name": "💨 潇洒 | 综合",
+      "type": 0,
+      "api": "https://raw.githubusercontent.com/PizazzGY/TVBox/main/api.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "香雅情",
+      "name": "🌸 香雅情 | 综合",
+      "type": 0,
+      "api": "https://fastly.jsdelivr.net/gh/xyq254245/xyqonlinerule@main/XYQTVBox.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺", "纪录片"]
+    },
+    {
+      "key": "道长",
+      "name": "🧙 道长 | 综合",
+      "type": 0,
+      "api": "https://gitlab.com/duomv/dzhipy/-/raw/main/index.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "王二小",
+      "name": "🐮 王二小 | 综合",
+      "type": 0,
+      "api": "http://tvbox.王二小放牛娃.xyz",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "俊于",
+      "name": "🏠 俊于 | 综合",
+      "type": 0,
+      "api": "http://home.jundie.top:81/top98.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "欧歌",
+      "name": "🎵 欧歌 | 综合",
+      "type": 0,
+      "api": "http://tv.nxog.top/m/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "摸鱼儿",
+      "name": "🐟 摸鱼儿 | 综合",
+      "type": 0,
+      "api": "http://我不是.摸鱼儿.top",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "Ray",
+      "name": "🌈 Ray | 综合",
+      "type": 0,
+      "api": "https://100km.top/0",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "盒子迷",
+      "name": "📦 盒子迷 | 综合",
+      "type": 0,
+      "api": "https://盒子迷.top/春盈天下",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "菜妮丝",
+      "name": "🥦 菜妮丝 | 综合",
+      "type": 0,
+      "api": "https://tv.xn--yhqu5zs87a.top",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "南风",
+      "name": "🌊 南风 | 综合",
+      "type": 0,
+      "api": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "其人之道",
+      "name": "⚔️ 其人之道 | 综合",
+      "type": 0,
+      "api": "https://fastly.jsdelivr.net/gh/qirenzhidao/tvbox18@main/app.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "巧技",
+      "name": "🔧 巧技 | 综合",
+      "type": 0,
+      "api": "http://pandown.pro/tvbox/tvbox.json",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    },
+    {
+      "key": "douyu",
+      "name": "🎮 斗鱼直播 | 游戏/娱乐",
+      "type": 3,
+      "api": "csp_Douyu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "playerType": 1,
+      "categories": ["游戏直播", "娱乐直播", "颜值", "户外", "音乐"]
+    },
+    {
+      "key": "豆瓣",
+      "name": "📖 豆瓣 | 推荐/排行榜",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "changeable": 1,
+      "categories": ["电影", "电视剧", "动漫", "综艺"]
+    }
+  ],
+  "lives": [
+    {
+      "name": "📡 央视高清",
+      "type": 0,
+      "url": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+      "playerType": 1,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+      "logo": "https://logo.wyfc.qzz.io/{name}.png"
+    },
+    {
+      "name": "📡 卫视高清",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u",
+      "playerType": 1,
+      "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}"
+    },
+    {
+      "name": "🌍 全球频道",
+      "type": 0,
+      "url": "https://iptv-org.github.io/iptv/index.m3u",
+      "playerType": 2,
+      "epg": "https://iptv-org.github.io/epg/epg.xml"
+    },
+    {
+      "name": "🔄 自动更新直播源",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+      "playerType": 1
+    },
+    {
+      "name": "🇨🇳 中文频道聚合",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u",
+      "playerType": 1
+    },
+    {
+      "name": "🎮 斗鱼直播流",
+      "type": 3,
+      "url": "csp_Douyu",
+      "playerType": 1
+    }
+  ],
+  "parses": [
+    {
+      "name": "免费解析",
+      "type": 0,
+      "url": "https://jx.xmflv.com/?url=",
+      "ext": {
+        "flag": ["qq", "腾讯", "qiyi", "爱奇艺", "youku", "优酷", "mgtv", "芒果", "bilibili", "哔哩哔哩", "sohu", "搜狐", "1905"],
+        "header": {
+          "User-Agent": "okhttp/4.1.0"
+        }
+      }
+    },
+    {
+      "name": "Json聚合解析",
+      "type": 3,
+      "url": "Demo"
+    },
+    {
+      "name": "秒播解析",
+      "type": 0,
+      "url": "https://jiexi.秒播.com/?url=",
+      "ext": {
+        "flag": ["qq", "腾讯", "qiyi", "爱奇艺", "youku", "优酷"]
+      }
+    }
+  ],
+  "flags": [
+    "qq", "腾讯", "qiyi", "爱奇艺", "youku", "优酷",
+    "mgtv", "芒果", "bilibili", "哔哩哔哩",
+    "sohu", "搜狐", "letv", "乐视",
+    "1905", "电影网", "douyu", "斗鱼",
+    "huya", "虎牙"
+  ],
+  "doh": [
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": ["1.1.1.1", "1.0.0.1"]
+    },
+    {
+      "name": "Ali DNS",
+      "url": "https://dns.alidns.com/dns-query",
+      "ips": ["223.5.5.5", "223.6.6.6"]
+    },
+    {
+      "name": "DNSPod",
+      "url": "https://dns.pub/dns-query",
+      "ips": ["119.29.29.29"]
+    }
+  ],
+  "rules": [
+    {
+      "name": "广告过滤",
+      "hosts": ["magnet"],
+      "regex": ["更多", "直播", "社区", "美女荷官", "赌博", "色情"]
+    }
+  ],
+  "ads": [
+    "mimg.0c1q0l.cn",
+    "www.googletagmanager.com",
+    "hm.baidu.com",
+    "umeng.com",
+    "cnzz.com"
+  ],
+  "ijk": [
+    {
+      "group": "软解码",
+      "options": [
+        {"category": 4, "name": "mediacodec", "value": "0"},
+        {"name": "fflags", "value": "fastseek"},
+        {"name": "skip_loop_filter", "value": "48"},
+        {"name": "overlay-format", "value": "rgb32"}
+      ]
+    },
+    {
+      "group": "硬解码",
+      "options": [
+        {"category": 4, "name": "mediacodec", "value": "1"},
+        {"name": "fflags", "value": "fastseek"},
+        {"name": "skip_loop_filter", "value": "48"}
+      ]
+    }
+  ]
+}
