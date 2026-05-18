@@ -1,21 +1,3 @@
 {
-  "author": "231g-sudo",
-  "version": "1.0.1",
-  "description": "影视扩展仓 - 不含主仓已收录源，无 key 冲突",
-  "sites": [
-    {
-      "key": "金鹰资源",
-      "name": "🦅 金鹰资源 | 综合",
-      "type": 1,
-      "api": "https://www.jinyingzy.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "动漫"]
-    }
-  ],
-  "lives": [],
-  "parses": []
+  "sites": []
 }
