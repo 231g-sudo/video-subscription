@@ -1,6 +1,6 @@
 # 影视仓/OK影视 订阅配置文件 (TOML格式)
 
-spider = "./jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
+spider = "https://raw.githubusercontent.com/231g-sudo/video-subscription/main/jar/custom_spider.jar;md5;41c87635d7592069884a5dafa12acabe"
 wallpaper = "https://t.alcy.cc/acg"
 
 [[sites]]

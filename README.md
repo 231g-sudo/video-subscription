@@ -5,6 +5,12 @@
 ## 📋 订阅地址
 
 ### 主仓（推荐，含 spider 引擎）
+
+```
+https://cdn.jsdelivr.net/gh/231g-sudo/video-subscription@main/subscription.json
+```
+
+备用:
 ```
 https://raw.githubusercontent.com/231g-sudo/video-subscription/main/subscription.json
 ```
