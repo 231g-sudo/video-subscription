@@ -1,11 +1,12 @@
 # 影视仓/OK影视 订阅配置文件 (TOML格式)
 # 作者: 231g-sudo
 # 版本: 1.0.1
+# 所有源已实测可用
 
 [info]
 author = "231g-sudo"
 version = "1.0.1"
-description = "影视仓/OK影视 全类别订阅配置"
+description = "影视仓/OK影视 全类别订阅配置（实测可用源）"
 update_time = "2026-05-18"
 
 [wallpaper]
@@ -35,64 +36,28 @@ playerType = 1
 categories = ["游戏直播", "娱乐直播", "颜值", "户外", "音乐"]
 
 [[sites]]
-key = "电影天堂"
-name = "🎬 电影天堂 | 电影"
+key = "非凡资源"
+name = "🔥 非凡资源 | 综合"
 type = 1
-api = "https://www.dydytt.net/api.php/provide/vod/"
+api = "http://ffzy.tv/api.php/provide/vod/"
 searchable = true
 quickSearch = true
 filterable = true
 changeable = true
 playerType = 2
-categories = ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片"]
+categories = ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "日本剧"]
 
 [[sites]]
-key = "追剧达人"
-name = "📺 追剧达人 | 电视剧"
+key = "最大资源"
+name = "📀 最大资源 | 综合"
 type = 1
-api = "https://api.zhuiju18.com/api.php/provide/vod/"
+api = "https://www.zuidazy.com/api.php/provide/vod/"
 searchable = true
 quickSearch = true
 filterable = true
 changeable = true
 playerType = 2
-categories = ["国产剧", "香港剧", "韩国剧", "欧美剧", "日本剧", "台湾剧"]
-
-[[sites]]
-key = "动漫世界"
-name = "🎨 动漫世界 | 动漫"
-type = 1
-api = "https://www.dm233.me/api.php/provide/vod/"
-searchable = true
-quickSearch = true
-filterable = true
-changeable = true
-playerType = 2
-categories = ["热血", "奇幻", "恋爱", "搞笑", "科幻", "冒险", "机战"]
-
-[[sites]]
-key = "综艺大全"
-name = "🎤 综艺大全 | 综艺"
-type = 1
-api = "https://zy.xiangjiaob.com/api.php/provide/vod/"
-searchable = true
-quickSearch = true
-filterable = true
-changeable = true
-playerType = 2
-categories = ["真人秀", "脱口秀", "选秀", "访谈", "搞笑", "音乐", "舞蹈"]
-
-[[sites]]
-key = "纪录片"
-name = "🌍 纪录片 | 探索"
-type = 1
-api = "https://www.jlpzj.com/api.php/provide/vod/"
-searchable = true
-quickSearch = true
-filterable = true
-changeable = true
-playerType = 2
-categories = ["自然", "历史", "科技", "人文", "军事", "美食"]
+categories = ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧"]
 
 [[lives]]
 name = "📡 央视高清"
@@ -117,8 +82,3 @@ name = "免费解析"
 type = 0
 url = "https://jx.xmflv.com/?url="
 flags = ["qq", "腾讯", "qiyi", "爱奇艺", "youku", "优酷", "mgtv", "芒果"]
-
-[doh]
-name = "Cloudflare"
-url = "https://cloudflare-dns.com/dns-query"
-ips = ["1.1.1.1", "1.0.0.1"]

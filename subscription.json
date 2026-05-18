@@ -29,64 +29,28 @@
       "categories": ["游戏直播", "娱乐直播", "颜值", "户外", "音乐"]
     },
     {
-      "key": "电影天堂",
-      "name": "🎬 电影天堂 | 电影",
+      "key": "非凡资源",
+      "name": "🔥 非凡资源 | 综合",
       "type": 1,
-      "api": "https://www.dydytt.net/api.php/provide/vod/",
+      "api": "http://ffzy.tv/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片"]
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧", "日本剧"]
     },
     {
-      "key": "追剧达人",
-      "name": "📺 追剧达人 | 电视剧",
+      "key": "最大资源",
+      "name": "📀 最大资源 | 综合",
       "type": 1,
-      "api": "https://api.zhuiju18.com/api.php/provide/vod/",
+      "api": "https://www.zuidazy.com/api.php/provide/vod/",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
       "playerType": 2,
-      "categories": ["国产剧", "香港剧", "韩国剧", "欧美剧", "日本剧", "台湾剧"]
-    },
-    {
-      "key": "动漫世界",
-      "name": "🎨 动漫世界 | 动漫",
-      "type": 1,
-      "api": "https://www.dm233.me/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "categories": ["热血", "奇幻", "恋爱", "搞笑", "科幻", "冒险", "机战"]
-    },
-    {
-      "key": "综艺大全",
-      "name": "🎤 综艺大全 | 综艺",
-      "type": 1,
-      "api": "https://zy.xiangjiaob.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "categories": ["真人秀", "脱口秀", "选秀", "访谈", "搞笑", "音乐", "舞蹈"]
-    },
-    {
-      "key": "纪录片",
-      "name": "🌍 纪录片 | 探索",
-      "type": 1,
-      "api": "https://www.jlpzj.com/api.php/provide/vod/",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "playerType": 2,
-      "categories": ["自然", "历史", "科技", "人文", "军事", "美食"]
+      "categories": ["动作片", "喜剧片", "爱情片", "科幻片", "恐怖片", "剧情片", "战争片", "国产剧", "香港剧", "韩国剧", "欧美剧"]
     }
   ],
   "lives": [

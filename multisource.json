@@ -1,15 +1,14 @@
 {
   "author": "231g-sudo",
   "version": "1.0.1",
-  "update_time": "2026-05-18",
-  "description": "影视仓 多仓聚合配置 - 一键加载多个订阅源",
+  "description": "影视仓多仓聚合 - 内部源 + 外部备用源",
   "urls": [
     {
       "name": "🎬 主仓 (综合全类)",
       "url": "https://raw.githubusercontent.com/231g-sudo/video-subscription/main/subscription.json"
     },
     {
-      "name": "📺 电影/电视剧仓",
+      "name": "📺 影视扩展仓",
       "url": "https://raw.githubusercontent.com/231g-sudo/video-subscription/main/sites/movies_tv.json"
     },
     {
@@ -33,7 +32,7 @@
       "url": "http://xhww.fun/小米/DEMO.json"
     },
     {
-      "name": "🔥 OK (备用)",
+      "name": "🔥 OK吊炸天 (备用)",
       "url": "http://ok321.top/tv"
     }
   ]
