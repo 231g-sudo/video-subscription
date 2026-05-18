@@ -33,6 +33,39 @@
       "api": "https://www.jinyingzy.com/api.php/provide/vod/",
       "searchable": 1,
       "changeable": 1
+    },
+    {
+      "key": "暴风资源",
+      "name": "🌪️ 暴风资源 | 综合",
+      "type": 1,
+      "api": "https://bfzyapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "索尼资源",
+      "name": "🎵 索尼资源 | 综合",
+      "type": 1,
+      "api": "https://suoniapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "量子资源",
+      "name": "⚛️ 量子资源 | 综合",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "douyu",
+      "name": "🎮 斗鱼直播 | 游戏/娱乐",
+      "type": 3,
+      "api": "csp_Douyu",
+      "searchable": 1,
+      "changeable": 1,
+      "playerType": 1
     }
   ],
   "lives": [

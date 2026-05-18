@@ -8,7 +8,7 @@
 
 稳定版（推荐）:
 ```
-https://cdn.jsdelivr.net/gh/231g-sudo/video-subscription@v1.0.0/subscription.json
+https://cdn.jsdelivr.net/gh/231g-sudo/video-subscription@v1.1.0/subscription.json
 ```
 
 最新版（可能不稳定）:
