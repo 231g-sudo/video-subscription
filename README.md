@@ -65,3 +65,4 @@ https://raw.githubusercontent.com/231g-sudo/video-subscription/main/multisource.
 ## 🔄 更新日志
 
 - **2026-05-18**: 初始版本发布，集成 18+ 视频源、电视直播、斗鱼直播
+- **2026-05-18(v2)**: 修复 spider.jar 缺失、单仓站点类型错误、TOML 不一致问题
